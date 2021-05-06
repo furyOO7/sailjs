@@ -105,7 +105,7 @@ section {
     display: inline-block;
 }
 ._boxzoom ._product-images .picZoomer {
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 ._boxzoom ._product-images .picZoomer .picZoomer-pic-wp img {

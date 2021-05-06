@@ -43,7 +43,7 @@ const Product = (props) => {
                     <ul class="spe_ul"></ul>
                     <div class="_p-qty-and-cart">
                       <div class="_p-add-cart">
-                        <button class="btn-theme btn btn-success" tabindex="0" onClick={(e) => addtocartClickHandler}>
+                        <button class="btn-theme btn btn-success" tabindex="0" onClick={(e) => addtocartClickHandler()}>
                           <i class="fa fa-shopping-cart"></i> Add to Cart
                            </button>
                       </div>
