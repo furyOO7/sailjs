@@ -10,7 +10,7 @@ export default function LandingPage() {
       <div>
         <main>
           <Route exact path="/" component={Home} />
-          <Route path="/product" component={Product} />
+          <Route path="/product/:id" component={Product} />
           <Route path="/checkout" component={Cart} />
         </main>
       </div>
